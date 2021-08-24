@@ -1,0 +1,15 @@
+we make new Models of 
+user, post, profile, comment, likes, createProfile and forms etc 
+
+we can deal with whole object or model as,
+example:
+findOne 
+findOneAndRemove 
+findOneAndUpdate
+findOneAndRead
+
+etc
+
+
+
+
