@@ -5,9 +5,93 @@ npm i -D nodemon concurrently
 
 create server.js and start the server 
 
-
 set scripts
 start node server.js
 server nodemon server.js
 
-check app.get('/')   that running or not 
+check app.get('/') that running or not 
+
+connecting database
+create config folder 
+global vaiable files 
+default.json
+
+import connectDB() in server.js
+
+create routes folder 
+auth 
+posts 
+profile
+user 
+now routing files with routers 
+api/profile
+api/posts
+api/users
+api/auth
+
+now create collection in postman 
+auth & user
+posts 
+profiles
+
+
+server.js => 
+app.use(express.json({ extended: false }));
+to show responce in output 
+
+====================================
+Models:
+user Model
+registeration route => post request to api/users
+
+req.body validation => we use express-validator/check etc
+
+//route for user Registration:
+////see if user exist 
+////get user gravatar
+////Encrypt Password
+////Return Json Web Token
+{ payload,secret,timeLimit,arrowfunction(error,token) }
+
+Create Custom Middleware & jwt Verification
+
+//route for authenticate user
+
+//route for login user router 
+
+
+
+============
+now Profile Schema Model
+
+//route for get loggeg in user profile or Current user profile
+
+//route for create profile 
+create and update profile
+
+//route to get all profile and
+//get profile by unique id
+
+// delete a profile 
+
+now experience and education 
+
+// router to add or update and delete experience
+
+// router to add or update and delete education
+
+// route to get github repos of the user
+npm request pakage use for it 
+
+============
+now Posts Schema Model
+
+//     
+
+
+
+
+
+
+
+
