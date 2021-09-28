@@ -1,3 +1,2 @@
-node_modules
-client/node_modules
-congig/default.json
+node_modules/
+config/default.json
